@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+
+
+.datosPersonales{
+    text-align: center;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+}
+
+body {
+    /*background-color: rgb(95, 160, 134);*/
+    background-color: #F2EFDF;
+    background-image: url("./imagenes/Fondo.jpeg");
+     font-family: "Roboto Serif", serif;
+     font-weight: 570;
+}
+
+.titulos {
+    text-align: center;
+}
+
+.logo {
+    border-radius: 18%;
+    padding-top: 12px;
+    border: solid;
+    height: 200px;
+}
+
+.fondo2 {
+    background-color: #112900;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.contenido {
+    background-color: #171f64;
+    margin: 0px 10px;
+    border-radius: 7px;
+    padding: 1px;
+    color: white;
+}
+
+.Linea {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.datos {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+
+.letra {
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #F2E744;
+    padding: 10px;
+}
+
+
+
+
+.segundaParte {
+    display: flex;
+    margin: 20px;
+    border-radius: 10px;
+}
+.contenedorsegundaParte{
+    display: flex;
+    align-items: center; 
+    gap: 30px;
+}
+
+.metodos{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+legend{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 400;
+
+}
+
+
+
+legend:hover{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 100px;
+    font-weight: 600;
+}
+
+.datos2{
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    font-family: "Roboto Serif", serif;
+}
+.pelis{
+    display: flex;
+    gap: 10vh;
+}
